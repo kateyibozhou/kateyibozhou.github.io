@@ -130,13 +130,13 @@ const evpnIncreaseUserRenewalRate: CaseStudyType = {
             videos: [
               {
               relativePath: "/product-ux/evpn-increase-user-renewal-rate/mobile.mp4",
-              altText: 'A snapshot of the final design on mobile',
-              caption: 'A snapshot of the final design on mobile'
+              altText: 'A gif of the final design on mobile with 4 types of renewal reminder banners',
+              caption: 'A gif of the final design on mobile with 4 types of renewal reminder banners'
             },
               {
               relativePath: "/product-ux/evpn-increase-user-renewal-rate/desktop.mp4",
-              altText: 'A snapshot of the final design on desktop',
-              caption: 'A snapshot of the final design on desktop'
+              altText: 'A gif of the final design on desktop with 4 types of renewal reminder banners',
+              caption: 'A gif of the final design on desktop with 4 types of renewal reminder banners'
             },
           ],
           },
@@ -146,7 +146,7 @@ const evpnIncreaseUserRenewalRate: CaseStudyType = {
     ],
     learnings: [
       {
-        text: 'This experiment performed better than expected. We concluded it after 7 days because it achieved significance at 95% at p-value \<0.0001.',
+        text: 'This experiment performed better than expected. We concluded it after 7 days because it achieved significance at 95% at p-value <0.0001.',
       },
       {
         text: 'What contributed to its win can be summed up below:',
