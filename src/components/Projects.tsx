@@ -33,11 +33,6 @@ const AutoGrid = styled.div`
   }
 `;
 
-const AutoGridWrapper = styled.section`
-  margin: 0 auto;
-  padding: 0 1rem;
-`;
-
 const Projects = () => {
   return (
     <section className="selected-work">
