@@ -57,7 +57,7 @@ const ParticleAnimation = () => {
 
       space.add({
         start: (bound) => {
-          world = new World(space.innerBound, 1, 0);
+          world = new World(space.innerBound, 1, 80);
           let pts = Create.distributeRandom(space.innerBound, 20);
 
           for (let i = 0; i < pts.length; i++) {
@@ -66,14 +66,15 @@ const ParticleAnimation = () => {
             world.add(p);
           }
 
-          world.particle(0).lock = true;
+          // world.particle(0).lock = true;
         },
 
         animate: (time, ftime) => {
           const textBoundaries = getTextBoundaries();
 
           world.drawParticles((p, i) => {
-            let color = i === 0 ? "#fff" : ["#343A40", "#ff7f50"][i % 4];
+            // let color = i === 0 ? "#fff" : ["#343A40", "#ff7f50"][i % 2];
+            let color = ["#343A40", "#ff7f50"][i % 2];
             form.fillOnly(color).point(p, p.radius, "circle");
             if (i !== 0) {
               checkCollision(p, textBoundaries);
@@ -94,12 +95,16 @@ const ParticleAnimation = () => {
         },
       });
 
+      space.play();
+
+      /*
       // let the space follow mouse pointer but don't display on touch devices
       if (window.matchMedia("(hover: hover)").matches) {
         space.bindMouse().play();
       } else {
         space.play();
       }
+      */
 
       return () => {
         space.stop();
@@ -109,7 +114,7 @@ const ParticleAnimation = () => {
     handlePts();
   }, []);
 
-  return <canvas id="pt" style={{ position: "absolute", top: 80, left: 0, width: "100%", height: "100%" }} />;
+  return <canvas id="pt" style={{ position: "absolute", top: 80, left: 0, width: "100%", height: "calc(100% - 4rem)" }} />;
 };
 
 export default ParticleAnimation;
