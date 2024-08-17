@@ -20,14 +20,14 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-color: var(--primary-color-dark);
+  background-color: var(--primary-color-light);
 }
 
 .hero .title {
   font-size: 8rem;
   font-weight: 700;
   padding: 1rem;
-  color: var(--primary-color-light);
+  color: var(--primary-color-dark);
   font-family: "Fraunces", serif;
 }
 
@@ -35,7 +35,7 @@
   font-size: 1.2rem;
   font-weight: 700;
   padding: 1.5rem;
-  color: var(--primary-color-light);
+  color: var(--primary-color-dark);
   font-family: "Work Sans", sans-serif;
   
 }
@@ -52,7 +52,7 @@
 }
 .hero .see-more button{
   all: unset;
-  color: var(--primary-color-light);
+  color: var(--primary-color-dark);
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
   font-weight: 300;

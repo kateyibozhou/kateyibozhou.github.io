@@ -5,7 +5,7 @@ import WorkCard from './AltWorkCard';
 
 const ProjectCategoryTitle = styled.h2`
   font-size: 3rem;
-  color: ${({ theme }) => theme.colors.primaryLight};
+  color: ${({ theme }) => theme.colors.primaryDark};
   text-align: left;
   width: 80cqw;
   padding-left: 2rem;
@@ -73,12 +73,6 @@ const Projects = () => {
           description="Collaborated with user researchers to adapt Shell App for local markets and introduced a new payment model to users." 
           path="/case-study/shell-apac"
           image_path='https://github.com/kateyibozhou/react-portfolio/blob/main/src/assets/images/showcase/shell.png?raw=true'
-        />
-        <WorkCard 
-          title="Shell Malaysia localisation" 
-          description="Collaborated with user researchers to adapt Shell App for local markets and introduced a new payment model to users." 
-          path="/case-study/shell-malaysia"
-          image_path=''
         />
         </AutoGrid>
       <ProjectCategoryTitle>Service Design</ProjectCategoryTitle>

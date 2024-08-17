@@ -8,7 +8,7 @@ const ParticleAnimation = () => {
       const form = space.getForm();
       let world;
 
-      space.background = "#897143"; // Set the background color here
+      space.background = "#f5f5dc"; // Set the background color here
 
       const getTextBoundaries = () => {
         const title = document.querySelector(".title");

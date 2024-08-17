@@ -6,7 +6,7 @@
 
 .footer h2 {
   font-size: 2rem;
-  color: var(--secondary_color);
+  color: var(--primary-color-dark);
   margin-bottom: 1rem;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .footer .contacts a {
-  color: #fff;
+  color: var(--primary-color-dark);
   text-decoration: none;
   font-weight: bold;
   padding: 0.5rem;

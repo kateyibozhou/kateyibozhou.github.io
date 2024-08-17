@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   line-height: 1.4;
-  background-color: var(--primary-color-dark);
-  color: var(--secondary_color);
+  background-color: var(--primary-color-light);
+  color: var(--primark-color-dark);
   min-height: 80vh;
   max-width: 60rem;
   margin: auto;

@@ -5,7 +5,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     font-family: ${({ theme }) => theme.fonts.primary};
-    background-color: ${({ theme }) => theme.colors.primaryDark};
+    background-color: ${({ theme }) => theme.colors.primaryLight};
     color: ${({ theme }) => theme.colors.primaryDark};
     line-height: 1.6;
   }
