@@ -93,7 +93,7 @@ const Projects = () => {
           title="Xiamen Hospital Communications Design" 
           description="Write description here" 
           path="/case-study/xiamen-hospital"
-          image_path=''
+          image_path='https://github.com/kateyibozhou/kateyibozhou.github.io/blob/main/src/assets/images/showcase/xiamen.png?raw=true'
         />
       </AutoGrid>
       <ProjectCategoryTitle>Branding & Packaging</ProjectCategoryTitle>
@@ -114,7 +114,7 @@ const Projects = () => {
           title="Sephora Campaign Management and Optimisation" 
           description="Streamlined campaign resulted in boost in ROI, consumer engagement, and reduction in campaign launch delays" 
           path="/case-study/sephora-campaign"
-          image_path='https://github.com/kateyibozhou/kateyibozhou.github.io/blob/main/src/assets/images/showcase/rejoice.png?raw=true'
+          image_path='https://github.com/kateyibozhou/kateyibozhou.github.io/blob/main/src/assets/images/showcase/sephora.png?raw=true'
         />
       </AutoGrid>
     </section>
