@@ -102,7 +102,7 @@ const Projects = () => {
           title="Rejoice branding and packaging for GC and APAC" 
           description="Design shipped across GC and APAC, resulted in significant improvement in consumer visibility metrics and revenue" 
           path="/case-study/rejoice-branding"
-          image_path='https://github.com/kateyibozhou/react-portfolio/blob/main/src/assets/images/showcase/rejoice.png?raw=true'
+          image_path='https://github.com/kateyibozhou/kateyibozhou.github.io/blob/main/src/assets/images/showcase/rejoice.png?raw=true'
         />
         <WorkCard 
           title="SK-II Festive 2016" 
@@ -114,7 +114,7 @@ const Projects = () => {
           title="Sephora Campaign Management and Optimisation" 
           description="Streamlined campaign resulted in boost in ROI, consumer engagement, and reduction in campaign launch delays" 
           path="/case-study/sephora-campaign"
-          image_path=''
+          image_path='https://github.com/kateyibozhou/kateyibozhou.github.io/blob/main/src/assets/images/showcase/rejoice.png?raw=true'
         />
       </AutoGrid>
     </section>
