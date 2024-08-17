@@ -102,7 +102,7 @@ const Projects = () => {
           title="Rejoice branding and packaging for GC and APAC" 
           description="Design shipped across GC and APAC, resulted in significant improvement in consumer visibility metrics and revenue" 
           path="/case-study/rejoice-branding"
-          image_path=''
+          image_path='https://github.com/kateyibozhou/react-portfolio/blob/main/src/assets/images/showcase/rejoice.png?raw=true'
         />
         <WorkCard 
           title="SK-II Festive 2016" 
